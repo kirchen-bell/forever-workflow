@@ -20,7 +20,7 @@ jobs:
           echo "test job3"
       - run: sleep 3600
 
-  job2:
+  job3:
     needs: job1
     runs-on: ubuntu-latest
     steps:
